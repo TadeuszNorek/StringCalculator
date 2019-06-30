@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3bb81985-7e24-46e8-a4cc-e862bb30ee37" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/StringCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StringCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StringCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StringCalculatorTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,8 +21,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/StringCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+            <state relative-caret-position="255">
+              <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -156,7 +154,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StringCalculatorTest.oneNumberTest">
+  <component name="RunManager" selected="JUnit.StringCalculatorTest.moreNumbersTest">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -185,6 +183,17 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="StringCalculatorTest" />
       <option name="METHOD_NAME" value="moreNumbersTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringCalculatorTest.newlineDelimeterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="stringcalculator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StringCalculatorTest" />
+      <option name="METHOD_NAME" value="newlineDelimeterTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -240,8 +249,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StringCalculatorTest.oneNumberTest" />
         <item itemvalue="JUnit.StringCalculatorTest.moreNumbersTest" />
+        <item itemvalue="JUnit.StringCalculatorTest.newlineDelimeterTest" />
+        <item itemvalue="JUnit.StringCalculatorTest.oneNumberTest" />
         <item itemvalue="JUnit.StringCalculatorTest.twoNumbersTest" />
         <item itemvalue="JUnit.StringCalculatorTest.emptyStringTest" />
       </list>
@@ -257,20 +267,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561888931869</updated>
-      <workItem from="1561888939419" duration="5758000" />
+      <workItem from="1561888939419" duration="6379000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StringCalculatorTest_emptyStringTest - 2019.06.30 at 12h 39m 14s.xml">
-      <configuration name="StringCalculatorTest.emptyStringTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StringCalculatorTest_twoNumbersTest - 2019.06.30 at 13h 08m 45s.xml">
-      <configuration name="StringCalculatorTest.twoNumbersTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StringCalculatorTest_twoNumbersTest - 2019.06.30 at 13h 12m 30s.xml">
-      <configuration name="StringCalculatorTest.twoNumbersTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="StringCalculatorTest_oneNumberTest - 2019.06.30 at 13h 12m 37s.xml">
       <configuration name="StringCalculatorTest.oneNumberTest" configurationId="JUnit" />
     </history-entry>
@@ -292,9 +293,18 @@
     <history-entry file="StringCalculatorTest_moreNumbersTest - 2019.06.30 at 13h 39m 25s.xml">
       <configuration name="StringCalculatorTest.moreNumbersTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="StringCalculatorTest_twoNumbersTest - 2019.06.30 at 13h 39m 30s.xml">
+      <configuration name="StringCalculatorTest.twoNumbersTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringCalculatorTest_moreNumbersTest - 2019.06.30 at 13h 41m 11s.xml">
+      <configuration name="StringCalculatorTest.moreNumbersTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringCalculatorTest_oneNumberTest - 2019.06.30 at 13h 41m 16s.xml">
+      <configuration name="StringCalculatorTest.oneNumberTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5758000" />
+    <option name="totallyTimeSpent" value="6379000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="840" extended-state="6" />
@@ -307,15 +317,15 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" sideWeight="0.49328858" weight="0.32909605" />
+      <window_info anchor="bottom" id="Messages" sideWeight="0.49261746" weight="0.32909605" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.5053691" side_tool="true" visible="true" weight="0.32909605" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.5060403" side_tool="true" visible="true" weight="0.32909605" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49463087" visible="true" weight="0.32909605" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49395972" visible="true" weight="0.32909605" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -344,8 +354,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/StringCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        <state relative-caret-position="255">
+          <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
         </state>
       </provider>
     </entry>

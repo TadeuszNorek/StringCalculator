@@ -19,10 +19,14 @@ public class StringCalculatorTest {
         StringCalculator stringCalculator = new StringCalculator();
         assertEquals(3, StringCalculator.add("1,2"));
     }
-
     @Test
     public void moreNumbersTest() {
         StringCalculator stringCalculator = new StringCalculator();
         assertEquals(6, StringCalculator.add("1,2,3"));
+    }
+    @Test
+    public void newlineDelimeterTest() {
+        StringCalculator stringCalculator = new StringCalculator();
+        assertEquals(6, StringCalculator.add("1\n2,3"));
     }
 }

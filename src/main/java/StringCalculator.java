@@ -13,6 +13,6 @@ public class StringCalculator {
 
     private static String[] getNumbersList(String numbers) {
         String listOfNumbers = numbers;
-        return listOfNumbers.split(",");
+        return listOfNumbers.split(",|\n");
     }
 }
