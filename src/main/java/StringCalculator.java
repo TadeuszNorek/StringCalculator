@@ -13,6 +13,16 @@ public class StringCalculator {
 
     private static String[] getNumbersList(String numbers) {
         String listOfNumbers = numbers;
-        return listOfNumbers.split(",|\n");
+        if (numbers.startsWith("//"))
+            listOfNumbers = numbers.split("\n")[1];
+        return listOfNumbers.split(getRegex(numbers));
+    }
+
+    private static String getRegex(String numbers) {
+        String regex = ",|\n";
+        if (numbers.startsWith("//")){
+            regex = "\n|" + numbers.charAt(2);
+        }
+        return regex;
     }
 }
