@@ -1,14 +1,19 @@
 public class StringCalculator {
 
-    public static int add(String numbers) {
+    public static int add(String numbers) throws IllegalArgumentException {
         int sum = 0;
         if (numbers.equals(""))
             return 0;
         String[] list = getNumbersList(numbers);
+        String negatives = "";
         for (String s: list) {
-            sum+= Integer.parseInt(s);
+            if (Integer.parseInt(s)<0)
+                negatives += " " + s;
+            else sum+= Integer.parseInt(s);
         }
-        return sum;
+        if (negatives == "")
+            return sum;
+        else throw new IllegalArgumentException("negatives not allowed" + negatives);
     }
 
     private static String[] getNumbersList(String numbers) {

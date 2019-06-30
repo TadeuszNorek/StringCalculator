@@ -1,6 +1,7 @@
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
 
 
 public class StringCalculatorTest {
@@ -33,5 +34,16 @@ public class StringCalculatorTest {
     public void differentDelimeterTest() {
         StringCalculator stringCalculator = new StringCalculator();
         assertEquals(3, StringCalculator.add("//;\n1;2"));
+    }
+    @Test
+    public void negativesTest() {
+        StringCalculator stringCalculator = new StringCalculator();
+
+        try {
+            stringCalculator.add("-2");
+            fail("Failed, exception expected");
+        } catch (Exception e) {
+            assertEquals(e.getMessage(), "negatives not allowed -2");
+        }
     }
 }
