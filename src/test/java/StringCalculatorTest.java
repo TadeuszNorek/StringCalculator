@@ -51,4 +51,9 @@ public class StringCalculatorTest {
         StringCalculator stringCalculator = new StringCalculator();
         assertEquals(3, StringCalculator.add("//;\n1;2;1001"));
     }
+    @Test
+    public void anyLengthDelimeterTest() {
+        StringCalculator stringCalculator = new StringCalculator();
+        assertEquals(6, StringCalculator.add("//[***]\n1***2***3"));
+    }
 }

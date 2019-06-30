@@ -1,3 +1,5 @@
+import java.util.regex.Pattern;
+
 public class StringCalculator {
 
     public static int add(String numbers) throws IllegalArgumentException {
@@ -26,7 +28,15 @@ public class StringCalculator {
 
     private static String getRegex(String numbers) {
         String regex = ",|\n";
-        if (numbers.startsWith("//")){
+        if (numbers.startsWith("//[")){
+            /*regex = "\n|\\[";
+            String delimeter = numbers.split("\\[")[1];
+            delimeter = numbers.split("\\]")[0];
+            regex += "|" + delimeter + "]";*/
+            String delimeter = numbers.split("\\[")[1];
+            regex += "|" + Pattern.quote(delimeter.split("]")[0]);
+        }
+        else if (numbers.startsWith("//")){
             regex = "\n|" + numbers.charAt(2);
         }
         return regex;
