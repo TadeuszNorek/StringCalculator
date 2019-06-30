@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3bb81985-7e24-46e8-a4cc-e862bb30ee37" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/StringCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StringCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/StringCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StringCalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/StringCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/StringCalculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/StringCalculatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StringCalculatorTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -14,16 +17,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/StringCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="36" column="66" selection-start-line="36" selection-start-column="66" selection-end-line="36" selection-end-column="66" />
+            <state relative-caret-position="174">
+              <caret line="35" column="58" selection-start-line="35" selection-start-column="58" selection-end-line="35" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -31,8 +33,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/StringCalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="56" column="22" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
+            <state relative-caret-position="280">
+              <caret line="61" column="54" lean-forward="true" selection-start-line="61" selection-start-column="54" selection-end-line="61" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -77,10 +79,10 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="960" />
     <option name="width" value="960" />
-    <option name="height" value="1033" />
+    <option name="height" value="1034" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -88,7 +90,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -111,6 +112,13 @@
               <item name="stringcalculator" type="b2602c69:ProjectViewProjectNode" />
               <item name="stringcalculator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stringcalculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stringcalculator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -125,6 +133,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -155,7 +164,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StringCalculatorTest.anyLengthDelimeterTest">
+  <component name="RunManager" selected="JUnit.StringCalculatorTest.moreNumbersTest">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -173,17 +182,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="StringCalculatorTest" />
       <option name="METHOD_NAME" value="anyLengthDelimeterTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringCalculatorTest.biggerThan1000Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="stringcalculator" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StringCalculatorTest" />
-      <option name="METHOD_NAME" value="biggerThan1000Test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -212,11 +210,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringCalculatorTest.oneNumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringCalculatorTest.multipleDelimetersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="stringcalculator" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="StringCalculatorTest" />
-      <option name="METHOD_NAME" value="oneNumberTest" />
+      <option name="METHOD_NAME" value="multipleDelimetersTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringCalculatorTest.newlineDelimeterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="stringcalculator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StringCalculatorTest" />
+      <option name="METHOD_NAME" value="newlineDelimeterTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -250,11 +259,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StringCalculatorTest.anyLengthDelimeterTest" />
-        <item itemvalue="JUnit.StringCalculatorTest.biggerThan1000Test" />
-        <item itemvalue="JUnit.StringCalculatorTest.oneNumberTest" />
-        <item itemvalue="JUnit.StringCalculatorTest.differentDelimeterTest" />
         <item itemvalue="JUnit.StringCalculatorTest.moreNumbersTest" />
+        <item itemvalue="JUnit.StringCalculatorTest.differentDelimeterTest" />
+        <item itemvalue="JUnit.StringCalculatorTest.anyLengthDelimeterTest" />
+        <item itemvalue="JUnit.StringCalculatorTest.multipleDelimetersTest" />
+        <item itemvalue="JUnit.StringCalculatorTest.newlineDelimeterTest" />
       </list>
     </recent_temporary>
   </component>
@@ -268,78 +277,79 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561888931869</updated>
-      <workItem from="1561888939419" duration="11085000" />
+      <workItem from="1561888939419" duration="13201000" />
+      <workItem from="1561902469152" duration="250000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StringCalculatorTest_oneNumberTest - 2019.06.30 at 14h 40m 32s.xml">
-      <configuration name="StringCalculatorTest.oneNumberTest" configurationId="JUnit" />
+    <history-entry file="StringCalculatorTest_multipleDelimetersTest - 2019.06.30 at 15h 25m 48s.xml">
+      <configuration name="StringCalculatorTest.multipleDelimetersTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringCalculatorTest_anyLengthDelimeterTest - 2019.06.30 at 14h 43m 01s.xml">
-      <configuration name="StringCalculatorTest.anyLengthDelimeterTest" configurationId="JUnit" />
+    <history-entry file="StringCalculatorTest_multipleDelimetersTest - 2019.06.30 at 15h 26m 02s.xml">
+      <configuration name="StringCalculatorTest.multipleDelimetersTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringCalculatorTest_anyLengthDelimeterTest - 2019.06.30 at 14h 43m 13s.xml">
-      <configuration name="StringCalculatorTest.anyLengthDelimeterTest" configurationId="JUnit" />
+    <history-entry file="StringCalculatorTest_multipleDelimetersTest - 2019.06.30 at 15h 27m 53s.xml">
+      <configuration name="StringCalculatorTest.multipleDelimetersTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringCalculatorTest_anyLengthDelimeterTest - 2019.06.30 at 14h 50m 24s.xml">
-      <configuration name="StringCalculatorTest.anyLengthDelimeterTest" configurationId="JUnit" />
+    <history-entry file="StringCalculatorTest_multipleDelimetersTest - 2019.06.30 at 15h 30m 41s.xml">
+      <configuration name="StringCalculatorTest.multipleDelimetersTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringCalculatorTest_anyLengthDelimeterTest - 2019.06.30 at 14h 51m 06s.xml">
-      <configuration name="StringCalculatorTest.anyLengthDelimeterTest" configurationId="JUnit" />
+    <history-entry file="StringCalculatorTest_multipleDelimetersTest - 2019.06.30 at 15h 35m 12s.xml">
+      <configuration name="StringCalculatorTest.multipleDelimetersTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringCalculatorTest_biggerThan1000Test - 2019.06.30 at 14h 51m 25s.xml">
+    <history-entry file="StringCalculatorTest_biggerThan1000Test - 2019.06.30 at 15h 35m 19s.xml">
       <configuration name="StringCalculatorTest.biggerThan1000Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringCalculatorTest_anyLengthDelimeterTest - 2019.06.30 at 14h 51m 29s.xml">
+    <history-entry file="StringCalculatorTest_anyLengthDelimeterTest - 2019.06.30 at 15h 35m 23s.xml">
       <configuration name="StringCalculatorTest.anyLengthDelimeterTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringCalculatorTest_anyLengthDelimeterTest - 2019.06.30 at 15h 03m 32s.xml">
-      <configuration name="StringCalculatorTest.anyLengthDelimeterTest" configurationId="JUnit" />
+    <history-entry file="StringCalculatorTest_newlineDelimeterTest - 2019.06.30 at 15h 35m 27s.xml">
+      <configuration name="StringCalculatorTest.newlineDelimeterTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringCalculatorTest_anyLengthDelimeterTest - 2019.06.30 at 15h 04m 50s.xml">
-      <configuration name="StringCalculatorTest.anyLengthDelimeterTest" configurationId="JUnit" />
+    <history-entry file="StringCalculatorTest_multipleDelimetersTest - 2019.06.30 at 15h 48m 09s.xml">
+      <configuration name="StringCalculatorTest.multipleDelimetersTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringCalculatorTest_anyLengthDelimeterTest - 2019.06.30 at 15h 05m 22s.xml">
-      <configuration name="StringCalculatorTest.anyLengthDelimeterTest" configurationId="JUnit" />
+    <history-entry file="StringCalculatorTest_multipleDelimetersTest - 2019.06.30 at 15h 52m 04s.xml">
+      <configuration name="StringCalculatorTest.multipleDelimetersTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11085000" />
+    <option name="totallyTimeSpent" value="13451000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="768" y="0" width="768" height="826" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="840" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17090395" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08187919" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" sideWeight="0.4704698" weight="0.32485875" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.509887" side_tool="true" visible="true" weight="0.33429396" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.490113" visible="true" weight="0.33429396" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4818792" visible="true" weight="0.32627118" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.40719426" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5181208" side_tool="true" visible="true" weight="0.32627118" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.46107382" weight="0.32062146" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -355,15 +365,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/StringCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="36" column="66" selection-start-line="36" selection-start-column="66" selection-end-line="36" selection-end-column="66" />
+        <state relative-caret-position="174">
+          <caret line="35" column="58" selection-start-line="35" selection-start-column="58" selection-end-line="35" selection-end-column="58" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/StringCalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="56" column="22" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
+        <state relative-caret-position="280">
+          <caret line="61" column="54" lean-forward="true" selection-start-line="61" selection-start-column="54" selection-end-line="61" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
