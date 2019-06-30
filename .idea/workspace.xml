@@ -156,7 +156,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StringCalculatorTest.twoNumbersTest">
+  <component name="RunManager" selected="JUnit.StringCalculatorTest.oneNumberTest">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -240,10 +240,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StringCalculatorTest.twoNumbersTest" />
-        <item itemvalue="JUnit.StringCalculatorTest.moreNumbersTest" />
-        <item itemvalue="JUnit.StringCalculatorTest.emptyStringTest" />
         <item itemvalue="JUnit.StringCalculatorTest.oneNumberTest" />
+        <item itemvalue="JUnit.StringCalculatorTest.moreNumbersTest" />
+        <item itemvalue="JUnit.StringCalculatorTest.twoNumbersTest" />
+        <item itemvalue="JUnit.StringCalculatorTest.emptyStringTest" />
       </list>
     </recent_temporary>
   </component>

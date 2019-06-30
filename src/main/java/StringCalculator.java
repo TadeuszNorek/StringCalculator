@@ -5,11 +5,9 @@ public class StringCalculator {
         if (numbers.equals(""))
             return 0;
         String[] list = getNumbersList(numbers);
-        if (list.length>0)
-            for (int i = 0; i<2; i++) {
-                sum+= Integer.parseInt(list[i]);
-            }
-
+        for (String s: list) {
+            sum+= Integer.parseInt(s);
+        }
         return sum;
     }
 
