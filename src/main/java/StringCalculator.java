@@ -9,7 +9,8 @@ public class StringCalculator {
         for (String s: list) {
             if (Integer.parseInt(s)<0)
                 negatives += " " + s;
-            else sum+= Integer.parseInt(s);
+            else if (Integer.parseInt(s)<=1000)
+                sum+= Integer.parseInt(s);
         }
         if (negatives == "")
             return sum;
