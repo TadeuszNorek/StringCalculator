@@ -7,14 +7,14 @@ public class StringCalculator {
         if (numbers.equals(""))
             return 0;
         String[] list = getNumbersList(numbers, getRegex(numbers));
-        String negatives = "";
+        StringBuilder negatives = new StringBuilder("");
         for (String s: list) {
             if (Integer.parseInt(s)<0)
-                negatives += " " + s;
+                negatives.append(" ").append(s);
             else if (Integer.parseInt(s) <= 1000)
                 sum+= Integer.parseInt(s);
         }
-        if (negatives == "")
+        if (negatives.toString().equals(""))
             return sum;
         else throw new IllegalArgumentException("negatives not allowed" + negatives);
     }
@@ -31,10 +31,11 @@ public class StringCalculator {
         if (numbers.startsWith("//[")){
             String[] delimeters = numbers.split("\\[");
             regex = "\n";
-
+            StringBuilder sB = new StringBuilder(regex);
             for (int i=1; i<delimeters.length; i++){
-                regex += "|" + Pattern.quote(delimeters[i].split("]")[0]);
+                sB.append("|").append(Pattern.quote(delimeters[i].split("]")[0]));
             }
+            regex = sB.toString();
         }
         else if (numbers.startsWith("//")){
             regex = "\n|" + numbers.charAt(2);

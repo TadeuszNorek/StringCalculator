@@ -5,8 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/StringCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StringCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/StringCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StringCalculatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/StringCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/StringCalculator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/StringCalculatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StringCalculatorTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,32 +19,45 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/StringCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="35" column="58" selection-start-line="35" selection-start-column="58" selection-end-line="35" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/StringCalculatorTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="61" column="54" lean-forward="true" selection-start-line="61" selection-start-column="54" selection-end-line="61" selection-end-column="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="340">
+              <caret line="35" column="82" selection-start-line="35" selection-start-column="82" selection-end-line="35" selection-end-column="82" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/test/java/StringCalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="680">
+              <caret line="40" column="67" selection-start-line="40" selection-start-column="67" selection-end-line="40" selection-end-column="67" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#172#173#0" expanded="true" />
+                <element signature="e#246#247#0" expanded="true" />
+                <element signature="e#334#335#0" expanded="true" />
+                <element signature="e#391#392#0" expanded="true" />
+                <element signature="e#435#436#0" expanded="true" />
+                <element signature="e#493#494#0" expanded="true" />
+                <element signature="e#538#539#0" expanded="true" />
+                <element signature="e#598#599#0" expanded="true" />
+                <element signature="e#644#645#0" expanded="true" />
+                <element signature="e#706#707#0" expanded="true" />
+                <element signature="e#757#758#0" expanded="true" />
+                <element signature="e#820#821#0" expanded="true" />
+                <element signature="e#873#874#0" expanded="true" />
+                <element signature="e#938#939#0" expanded="true" />
+                <element signature="e#1251#1252#0" expanded="true" />
+                <element signature="e#1321#1322#0" expanded="true" />
+                <element signature="e#1374#1375#0" expanded="true" />
+                <element signature="e#1449#1450#0" expanded="true" />
+                <element signature="e#1502#1503#0" expanded="true" />
+                <element signature="e#1574#1575#0" expanded="true" />
+                <element signature="e#1636#1637#0" expanded="true" />
+                <element signature="e#1716#1717#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -79,10 +90,10 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="960" />
     <option name="width" value="960" />
-    <option name="height" value="1034" />
+    <option name="height" value="1033" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -187,17 +198,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringCalculatorTest.anyLengthDelimeterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="stringcalculator" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StringCalculatorTest" />
-      <option name="METHOD_NAME" value="anyLengthDelimeterTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="StringCalculatorTest.differentDelimeterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="stringcalculator" />
       <option name="PACKAGE_NAME" value="" />
@@ -225,6 +225,17 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="StringCalculatorTest" />
       <option name="METHOD_NAME" value="multipleAnyLengthDelimetersTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringCalculatorTest.oneNumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="stringcalculator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StringCalculatorTest" />
+      <option name="METHOD_NAME" value="oneNumberTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -259,10 +270,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.StringCalculatorTest" />
+        <item itemvalue="JUnit.StringCalculatorTest.oneNumberTest" />
         <item itemvalue="JUnit.StringCalculatorTest.multipleAnyLengthDelimetersTest" />
         <item itemvalue="JUnit.StringCalculatorTest.moreNumbersTest" />
         <item itemvalue="JUnit.StringCalculatorTest.differentDelimeterTest" />
-        <item itemvalue="JUnit.StringCalculatorTest.anyLengthDelimeterTest" />
       </list>
     </recent_temporary>
   </component>
@@ -277,32 +288,15 @@
       <option name="presentableId" value="Default" />
       <updated>1561888931869</updated>
       <workItem from="1561888939419" duration="13201000" />
-      <workItem from="1561902469152" duration="250000" />
+      <workItem from="1561902469152" duration="571000" />
+      <workItem from="1562168426096" duration="3653000" />
+      <workItem from="1562607366794" duration="1847000" />
+      <workItem from="1562650109596" duration="64000" />
+      <workItem from="1563376694596" duration="996000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StringCalculatorTest_multipleDelimetersTest - 2019.06.30 at 15h 25m 48s.xml">
-      <configuration name="StringCalculatorTest.multipleDelimetersTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StringCalculatorTest_multipleDelimetersTest - 2019.06.30 at 15h 26m 02s.xml">
-      <configuration name="StringCalculatorTest.multipleDelimetersTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StringCalculatorTest_multipleDelimetersTest - 2019.06.30 at 15h 27m 53s.xml">
-      <configuration name="StringCalculatorTest.multipleDelimetersTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StringCalculatorTest_multipleDelimetersTest - 2019.06.30 at 15h 30m 41s.xml">
-      <configuration name="StringCalculatorTest.multipleDelimetersTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StringCalculatorTest_multipleDelimetersTest - 2019.06.30 at 15h 35m 12s.xml">
-      <configuration name="StringCalculatorTest.multipleDelimetersTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StringCalculatorTest_biggerThan1000Test - 2019.06.30 at 15h 35m 19s.xml">
-      <configuration name="StringCalculatorTest.biggerThan1000Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StringCalculatorTest_anyLengthDelimeterTest - 2019.06.30 at 15h 35m 23s.xml">
-      <configuration name="StringCalculatorTest.anyLengthDelimeterTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="StringCalculatorTest_newlineDelimeterTest - 2019.06.30 at 15h 35m 27s.xml">
       <configuration name="StringCalculatorTest.newlineDelimeterTest" configurationId="JUnit" />
     </history-entry>
@@ -312,15 +306,36 @@
     <history-entry file="StringCalculatorTest_multipleDelimetersTest - 2019.06.30 at 15h 52m 04s.xml">
       <configuration name="StringCalculatorTest.multipleDelimetersTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="StringCalculatorTest_anyLengthDelimeterTest - 2019.06.30 at 15h 52m 11s.xml">
+      <configuration name="StringCalculatorTest.anyLengthDelimeterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringCalculatorTest_differentDelimeterTest - 2019.06.30 at 15h 52m 15s.xml">
+      <configuration name="StringCalculatorTest.differentDelimeterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringCalculatorTest_moreNumbersTest - 2019.06.30 at 15h 52m 20s.xml">
+      <configuration name="StringCalculatorTest.moreNumbersTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringCalculatorTest_multipleAnyLengthDelimetersTest - 2019.06.30 at 15h 54m 35s.xml">
+      <configuration name="StringCalculatorTest.multipleAnyLengthDelimetersTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringCalculatorTest - 2019.06.30 at 15h 54m 51s.xml">
+      <configuration name="StringCalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringCalculatorTest_oneNumberTest - 2019.07.03 at 19h 28m 47s.xml">
+      <configuration name="StringCalculatorTest.oneNumberTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringCalculatorTest - 2019.07.17 at 17h 31m 19s.xml">
+      <configuration name="StringCalculatorTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13451000" />
+    <option name="totallyTimeSpent" value="20332000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="840" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="840" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08187919" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08456376" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -329,7 +344,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4818792" visible="true" weight="0.32627118" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.47919464" visible="true" weight="0.22881356" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.40719426" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -338,8 +353,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5181208" side_tool="true" visible="true" weight="0.32627118" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.46107382" weight="0.32062146" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.52080536" side_tool="true" visible="true" weight="0.22881356" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.45838925" weight="0.32062146" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -362,20 +377,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/StringCalculator.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/StringCalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="35" column="58" selection-start-line="35" selection-start-column="58" selection-end-line="35" selection-end-column="58" />
+        <state relative-caret-position="680">
+          <caret line="40" column="67" selection-start-line="40" selection-start-column="67" selection-end-line="40" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#172#173#0" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#435#436#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+            <element signature="e#538#539#0" expanded="true" />
+            <element signature="e#598#599#0" expanded="true" />
+            <element signature="e#644#645#0" expanded="true" />
+            <element signature="e#706#707#0" expanded="true" />
+            <element signature="e#757#758#0" expanded="true" />
+            <element signature="e#820#821#0" expanded="true" />
+            <element signature="e#873#874#0" expanded="true" />
+            <element signature="e#938#939#0" expanded="true" />
+            <element signature="e#1251#1252#0" expanded="true" />
+            <element signature="e#1321#1322#0" expanded="true" />
+            <element signature="e#1374#1375#0" expanded="true" />
+            <element signature="e#1449#1450#0" expanded="true" />
+            <element signature="e#1502#1503#0" expanded="true" />
+            <element signature="e#1574#1575#0" expanded="true" />
+            <element signature="e#1636#1637#0" expanded="true" />
+            <element signature="e#1716#1717#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/StringCalculatorTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/StringCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="61" column="54" lean-forward="true" selection-start-line="61" selection-start-column="54" selection-end-line="61" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="340">
+          <caret line="35" column="82" selection-start-line="35" selection-start-column="82" selection-end-line="35" selection-end-column="82" />
         </state>
       </provider>
     </entry>
